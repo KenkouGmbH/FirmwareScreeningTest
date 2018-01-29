@@ -49,14 +49,3 @@ void kenkouKeyboardMonitor(void){
 
 }
 
-bool checkTripleTap(
-          uint8_t channel
-        , time_t epochTime
-        , uint16_t additionalMillis) __attribute__ ((weak, alias ("checkTripleTapWeak")));
-
-
-bool checkTripleTapWeak(uint8_t channel, time_t timeSec, uint16_t timeMs){
-
-    printw("checkTripleTap is not implemented!\n");
-    return false;
-}
