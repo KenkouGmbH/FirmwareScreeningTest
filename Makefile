@@ -12,7 +12,8 @@ $(shell   mkdir -p $(ODIR))
 $(shell   mkdir -p $(BDIR))
 
 CFLAGS= -Wall -I$(IDIR)
-LFLAGS= -Wall -I$(IDIR) -lm -lncurses
+LFLAGS= -Wall -I$(IDIR) -lm
+
 SOURCES := $(wildcard $(SDIR)/*.c)
 OBJECTS := $(SOURCES:$(SDIR)/%.c=$(ODIR)/%.o)
 

@@ -3,7 +3,7 @@
 
 #define TRIPLE_TAP_CHANNEL 1
 
-void initKenkouKeyboardMonitor(void);
+void printInstructions(void);
 void kenkouKeyboardMonitor(void);
 
 #endif

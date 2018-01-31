@@ -1,7 +1,9 @@
 #include "kenkou_keyboard_monitor.h"
 
 int  main(void){
-    initKenkouKeyboardMonitor();
+
+    printInstructions();
+
     for(;;){
         kenkouKeyboardMonitor();
     }
